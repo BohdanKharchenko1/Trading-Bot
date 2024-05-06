@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Account Dashboard</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include custom CSS if needed -->
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Manage Trading Strategies</h2>
+    <select class="form-control mb-3" id="strategySelector">
+        <!-- Strategies will be dynamically populated here -->
+    </select>
+    <button class="btn btn-success" id="startButton">Start Selected Strategy</button>
+    <button class="btn btn-danger" id="stopButton">Stop Selected Strategy</button>
+</div>
+<div class="container mt-5">
+    <h2>Manage Positions</h2>
+    <button class="btn btn-warning" id="closeAllPositionsButton">Close All Positions</button>
+</div>
+
+<div class="container mt-5">
+    <h2>Open Positions</h2>
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+        <tr>
+            <th>ID</th>
+            <th>Symbol</th>
+            <th>Size</th>
+            <th>Leverage</th>
+            <th>Avg Price</th>
+            <th>Mark Price</th>
+            <th>Side</th>
+            <th>Stop Loss</th>
+            <th>Take Profit</th>
+            <th>Unrealised PnL</th>
+        </tr>
+        </thead>
+        <tbody id="positions-table-body">
+        <!-- Open positions will be inserted here by account.js -->
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<!-- Include Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<!-- Include account.js script that fetches and displays open orders -->
+<script src="/account/static/account.js"></script>
+</body>
+</html>

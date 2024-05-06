@@ -1,0 +1,31 @@
+{
+  "trading_strategies": [
+    {
+      "name": "Conservative Strategy",
+      "balance_percentage": 0.03,
+      "leverage": 5,
+      "risk_management": {
+        "stop_loss": 0.01,
+        "take_profit": 0.02
+      }
+    },
+    {
+      "name": "Moderate Strategy",
+      "balance_percentage": 0.05,
+      "leverage": 10,
+      "risk_management": {
+        "stop_loss": 0.02,
+        "take_profit": 0.04
+      }
+    },
+    {
+      "name": "Aggressive Strategy",
+      "balance_percentage": 0.07,
+      "leverage": 15,
+      "risk_management": {
+        "stop_loss": 0.03,
+        "take_profit": 0.06
+      }
+    }
+  ]
+}

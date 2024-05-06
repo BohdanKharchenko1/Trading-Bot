@@ -1,0 +1,42 @@
+Trading Bot User Guide
+
+Welcome to the Trading Bot. This guide will help you navigate and utilize the features available within the Trading Bot's user interface.
+
+
+
+Start trading Window:
+
+Conservative Strategy: Select this option to apply a trading strategy that aims for steady returns with low risk.
+Moderate Strategy: Opt for a balance between risk and return with this strategy.
+Aggressive Strategy: Choose this to aim for higher returns, accepting a higher level of risk.
+Fetch Closed PnL: Click here to retrieve and display the profit and loss of closed trades.
+Fetch Open Positions: Access the details of currently open trades with this button.
+Cancel All Orders: If you need to halt all trading activity and cancel existing orders, use this option.
+Start Web Window
+
+For web server configurations, this window allows you to:
+
+Enter the IP address and port number for the web server.
+Click Save Configuration to apply and save these settings.
+Start Web will initialize the web interface of the Trading Bot using the provided configuration.
+Create Account Window
+
+To manage user access, this window includes fields to create or delete a user account:
+
+Enter a desired Username and Password.
+Click Create Account to set up a new user account with the entered credentials.
+Use Delete Account to remove an existing user account.
+
+Configurations Window
+
+This window is dedicated to setting up and testing your API configuration:
+
+Input your API Key and API Secret provided by your trading platform.
+Click Save Configuration to store these API credentials.
+Test Connection checks the validity of the API connection.
+Choose File allows you to select a configuration file.
+OK will confirm and close the window, while Cancel will discard any changes.
+Always remember to keep your API keys and secrets secure and do not share them with unauthorized individuals.
+
+
+Happy Trading!
